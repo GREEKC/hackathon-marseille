@@ -25,10 +25,29 @@ Link to the Google Sheet
 
 ### Calanques hike
 
-Starting fromn the Luminy camopus, we will walk to the calanques, first to the Belvederes n(view point), and then down to the Calanque of Sugiton. 
-IMPORTANT NOtE : This is a ~3h hike on good terrain, but dress accordingly, with good shoes (at least trainers) and a little back pack with water (1.5L).  
+Starting fromn the Luminy campus, we will walk to the [calanques](https://en.wikipedia.org/wiki/Massif_des_Calanques), first to the `Belvedere` (view point), and then down to the [Calanque of Sugiton](https://en.wikipedia.org/wiki/Calanque_de_Sugiton). 
+IMPORTANT NOtE : This is a ~3h hike on good terrain, so dress accordingly if you come, with good shoes (at least trainers) and a little back pack with water (1.5L).  
 
 ### Diners 
+
+Please register to the Google sheet for each Diner. 
+
+- Diner 22 April :
+Register here : link to Google sheet
+
+- Main Diner 23 April: 
+Register here : link to Google sheet
+
+- Diner 24 April: 
+Register here : link to Google sheet
+
+- Diner 25 April: 
+Register here : link to Google sheet
+
+- Diner 26 April: 
+Register here : link to Google sheet
+
+
 
 
 ```markdown
