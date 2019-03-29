@@ -12,7 +12,7 @@ You can use the [editor on GitHub](https://github.com/GREEKC/hackathon-marseille
 - Luminy Campus map
 - Map to Hexagon
 
-![The Hexagon : ](http://statique.lamarseillaise.fr/media/k2/items/cache/cd488397a809507b8a4339f3552e8c29_XL.jpg)
+![The Hexagon:](http://statique.lamarseillaise.fr/media/k2/items/cache/cd488397a809507b8a4339f3552e8c29_XL.jpg)
 
 
 - Hackathon presentations
@@ -32,7 +32,7 @@ Link to the Google Sheet
 Starting fromn the Luminy campus, we will walk to the [calanques](https://en.wikipedia.org/wiki/Massif_des_Calanques), first to the `Belvedere` (view point), and then down to the [Calanque of Sugiton](https://en.wikipedia.org/wiki/Calanque_de_Sugiton). 
 IMPORTANT NOtE : This is a ~3h hike on good terrain, so dress accordingly if you come, with good shoes (at least trainers) and a little back pack with water (1.5L).  
 
-[!Sugiton Calanque](https://fr.wikipedia.org/wiki/Calanque_de_Sugiton#/media/File:Calanque_de_Sugiton.JPG)
+![Sugiton Calanque:](https://fr.wikipedia.org/wiki/Calanque_de_Sugiton#/media/File:Calanque_de_Sugiton.JPG)
 
 ### Diners 
 
