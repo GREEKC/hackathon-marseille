@@ -18,12 +18,15 @@ You can use the [editor on GitHub](https://github.com/GREEKC/hackathon-marseille
 
 ## Schedule / Agenda
 
-
+Link to the Google Sheet
 
 
 ## Social Events
 
 ### Calanques hike
+
+Starting fromn the Luminy camopus, we will walk to the calanques, first to the Belvederes n(view point), and then down to the Calanque of Sugiton. 
+IMPORTANT NOtE : This is a ~3h hike on good terrain, but dress accordingly, with good shoes (at least trainers) and a little back pack with water (1.5L).  
 
 ### Diners 
 
