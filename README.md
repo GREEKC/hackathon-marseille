@@ -14,7 +14,7 @@ Link to Google Sheet
 
 1. By plane : MRS [Aéroport Marseille Provence](https://www.marseille-airport.com/)
 
-2. By Train : Marseille train station (gare Saint Charles)
+2. By Train : Marseille train station [(Gare Saint Charles)](https://www.raileurope-world.com/place/marseille-saint-charles)
 
 
 ### Going to the Venue (Luminy Campus)
@@ -35,7 +35,7 @@ https://www.marseille-airport.com/access-car-parks/access/by-train-or-by-bus
 - Bus B1 (Castellane - Campus de Luminy). Opportunity to take the rond point du Prado in correspondence with the Metro 2 Bougainville-Ste Marguerite/Dromel.
 - Bus 21J (JET BUS) (Rond-Point du Prado - Campus de Luminy). Only during school times, in correspondence with the Metro 2 Bougainville-Ste Marguerite/Dromel..
 - Bus 24 or 24B (Ste Marguerite/Dromel - Campus de Luminy). In correspondence with the Metro 2 Bougainville-Ste Marguerite/Dromel.
-
+- INFO: The metro lines 1 and 2 operate from 5h00 to 21h00 weekdays and until 00h30 on Fridays, Saturdays and Sundays.
 
 
 ### Campus information
