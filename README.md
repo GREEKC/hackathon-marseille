@@ -37,14 +37,22 @@ Price: around 65 euros (day price) to 80 euros (night price)
 - INFO: The metro lines 1 and 2 operate from 5h00 to 21h00 weekdays and until 00h30 on Fridays, Saturdays and Sundays.
 
 
-### Campus information
+### Luminy Campus 
 
+Luminy, it's
+- 2 Faculties, 6 Grandes Ecoles et Instituts (more than 8000 students)
+- 32 Research laboratories CNRS, INSERM, University, INRA, IRD, CEA (more than 1500 researchers, foreign post docs, engineers...)
+- a nursery and high-tech companies
+- a training and conference centre (CIRM)
+- services and businesses
+- student accommodation (CROUS, Residence Studies...)
+- sports facilities (tennis, stadiums, swimming pool...), hiking trails, limestone for climbing...
 
-### Luminy Campus map
+Translated with www.DeepL.com/Translator
+
+### Luminy Campus map / Location of Hexagon
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11627.896687368744!2d5.433221280720204!3d43.23100116783698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9b9ac4de888d7%3A0x35aa62955b153ea2!2sBiblioth%C3%A8que+universitaire+Hexagone+de+Luminy!5e0!3m2!1sfr!2sfr!4v1553854427711!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-### Map to Hexagon
 
 ![The Hexagon:](http://statique.lamarseillaise.fr/media/k2/items/cache/cd488397a809507b8a4339f3552e8c29_XL.jpg)
 
