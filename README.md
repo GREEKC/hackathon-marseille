@@ -80,10 +80,10 @@ Link to the Google Sheet
 
 Starting fromn the Luminy campus, we will walk to the [calanques](https://en.wikipedia.org/wiki/Massif_des_Calanques), first to the `Belvedere` (view point), and then down to the [Calanque of Sugiton](https://en.wikipedia.org/wiki/Calanque_de_Sugiton). 
 
-IMPORTANT NOTE : This is a ~3h hike on good terrain, so dress accordingly if you come, with good shoes (at least trainers) and a little back pack with water (1.5L). 
 
-![Sugiton Calanque:](https://fr.wikipedia.org/wiki/Calanque_de_Sugiton#/media/File:Calanque_de_Sugiton.JPG)
+IMPORTANT NOTE : This is a ~3h hike on realtively good terrain, but dress accordingly if you come, with good shoes (at least trainers) and a little back pack with water (1.5L). The water temperature is around 14/15 degres, some might be interested in dipping their toes. 
 
+![Image](https://fr.wikipedia.org/wiki/Calanque_de_Sugiton#/media/File:Calanque_de_Sugiton.JPG) 
 
 ### Diners 
 
