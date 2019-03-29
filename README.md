@@ -10,41 +10,51 @@ You can use the [editor on GitHub](https://github.com/GREEKC/hackathon-marseille
 
 Link to Google Sheet
 
+### Going to Marseille
+
+1. By plane : MRS [Aéroport Marseille Provence](https://www.marseille-airport.com/)
+
+2. By Train : Marseille train station (gare Saint Charles)
+
+
 ### Going to the Venue (Luminy Campus)
 
--By plane
-The Luminy Campus is located 40 km from Marseille airport (MRS).
-Airport-Institute by bus/subway (1 hour and 30 minutes) :
+1. From Airport to Train station 
 
-1. Shuttle Airport / Marseille train station (gare Saint Charles) (shuttle every 20 minutes)
-Ticket price : 8 euros
+The Luminy Campus is located 40 km from Marseille airport (MRS) [Aéroport Marseille Provence](https://www.marseille-airport.com/). Airport-Institute by bus+subway (1 hour and 30 minutes) :
 
-2. Subway line 2 Marseille train station (gare Saint Charles) / “Rond point du Prado” stop
-Ticket price : 1,50 euros
+- [Shuttle Airport / Marseille train station (gare Saint Charles)](https://www.marseille-airport.com/access-car-parks/access/by-train-or-by-bus)  (gare Saint Charles) (shuttle every 20 minutes)
+Ticket price : ~8 euros 
 
-3. Bus “Rond point du Prado” stop / “Luminy” stop
-Bus line 21 or line 24 to “Luminy” stop
-Ticket price : 1,50 euros (you can use the subway ticket)
-
--Airport-Luminy Camopus by taxi (1 hour) :
+- Airport-Luminy Campus by taxi (1 hour) :
 Price: around 65 euros (day price) to 80 euros (night price)
 
+https://www.marseille-airport.com/access-car-parks/access/by-train-or-by-bus
 
-- Campus information
+2. Once in Marseille: By metro and bus
+- Bus B1 (Castellane - Campus de Luminy). Opportunity to take the rond point du Prado in correspondence with the Metro 2 Bougainville-Ste Marguerite/Dromel.
+- Bus 21J (JET BUS) (Rond-Point du Prado - Campus de Luminy). Only during school times, in correspondence with the Metro 2 Bougainville-Ste Marguerite/Dromel..
+- Bus 24 or 24B (Ste Marguerite/Dromel - Campus de Luminy). In correspondence with the Metro 2 Bougainville-Ste Marguerite/Dromel.
 
 
-- Luminy Campus map
+
+### Campus information
 
 
-- Map to Hexagon
+### Luminy Campus map
+
+
+### Map to Hexagon
 
 ![The Hexagon:](http://statique.lamarseillaise.fr/media/k2/items/cache/cd488397a809507b8a4339f3552e8c29_XL.jpg)
 
 
-- Hackathon presentations
-- Hotel Information
-- Marseille Information
-- Comments & Ideas
+###  Hackathon presentations
+###  Hotel Information
+### Marseille Information
+
+
+### Comments & Ideas
 
 ## Schedule / Agenda
 
