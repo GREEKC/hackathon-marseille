@@ -6,10 +6,36 @@ You can use the [editor on GitHub](https://github.com/GREEKC/hackathon-marseille
 ## Useful links for organisers/all
 
 
-- Expected participants
-- Going to the Venue (Luminy Campus)
+### Expected participants
+
+Link to Google Sheet
+
+### Going to the Venue (Luminy Campus)
+
+-By plane
+The Luminy Campus is located 40 km from Marseille airport (MRS).
+Airport-Institute by bus/subway (1 hour and 30 minutes) :
+
+1. Shuttle Airport / Marseille train station (gare Saint Charles) (shuttle every 20 minutes)
+Ticket price : 8 euros
+
+2. Subway line 2 Marseille train station (gare Saint Charles) / “Rond point du Prado” stop
+Ticket price : 1,50 euros
+
+3. Bus “Rond point du Prado” stop / “Luminy” stop
+Bus line 21 or line 24 to “Luminy” stop
+Ticket price : 1,50 euros (you can use the subway ticket)
+
+-Airport-Luminy Camopus by taxi (1 hour) :
+Price: around 65 euros (day price) to 80 euros (night price)
+
+
 - Campus information
+
+
 - Luminy Campus map
+
+
 - Map to Hexagon
 
 ![The Hexagon:](http://statique.lamarseillaise.fr/media/k2/items/cache/cd488397a809507b8a4339f3552e8c29_XL.jpg)
