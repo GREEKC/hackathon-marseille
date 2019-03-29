@@ -59,8 +59,15 @@ Translated with www.DeepL.com/Translator
 
 ###  Hackathon presentations
 ###  Hotel Information
+
+We advise to book hotels around `View Port` area, and between `Castellane` to `Rond point du Prado` area. 
+Those are the most convenient areas for commute to Luminy, nearby city center and nearby Buses and Metro lines. 
+
 ### Marseille Information
 
+Please check [the tourist information website](http://www.marseille-tourisme.com/en/) for details about organizing your stay in Marseille, and some practical informations. 
+
+You can get PDFs of various maps [Here](http://www.marseille-tourisme.com/en/pratical-information/touristic-documents/) 
 
 ### Comments & Ideas
 
