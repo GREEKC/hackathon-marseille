@@ -32,6 +32,8 @@ Link to the Google Sheet
 Starting fromn the Luminy campus, we will walk to the [calanques](https://en.wikipedia.org/wiki/Massif_des_Calanques), first to the `Belvedere` (view point), and then down to the [Calanque of Sugiton](https://en.wikipedia.org/wiki/Calanque_de_Sugiton). 
 IMPORTANT NOtE : This is a ~3h hike on good terrain, so dress accordingly if you come, with good shoes (at least trainers) and a little back pack with water (1.5L).  
 
+[!Belvedere](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiw8tqmg6fhAhVEvxoKHcz0C50QjRx6BAgBEAU&url=http%3A%2F%2Fwww.calanques13.com%2Fbalade-belvedere-sugiton.html&psig=AOvVaw3XRsk4ETUcNMMs7xXdcEBn&ust=1553937724762367)
+
 ### Diners 
 
 Please register to the Google sheet for each Diner. 
