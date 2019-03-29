@@ -29,7 +29,6 @@ Ticket price : ~8 euros
 - Airport-Luminy Campus by taxi (1 hour) :
 Price: around 65 euros (day price) to 80 euros (night price)
 
-https://www.marseille-airport.com/access-car-parks/access/by-train-or-by-bus
 
 2. Once in Marseille: By metro and bus
 - Bus B1 (Castellane - Campus de Luminy). Opportunity to take the rond point du Prado in correspondence with the Metro 2 Bougainville-Ste Marguerite/Dromel.
