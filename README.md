@@ -1,12 +1,32 @@
-## Welcome to GitHub Pages
+## Welcome to the GREEKC Marseille HAckaton GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/GREEKC/hackathon-marseille/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Useful links for organisers/all
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+- Expected participants
+- Going to the Venue (Luminy Campus)
+- Campus information
+- Luminy Campus map
+- Map to Hexagon
+- Hackathon presentations
+- Hotel Information
+- Marseille Information
+- Comments & Ideas
+
+## Schedule / Agenda
+
+
+
+
+## Social Events
+
+### Calanques hike
+
+### Diners 
+
 
 ```markdown
 Syntax highlighted code block
