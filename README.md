@@ -11,6 +11,10 @@ You can use the [editor on GitHub](https://github.com/GREEKC/hackathon-marseille
 - Campus information
 - Luminy Campus map
 - Map to Hexagon
+
+![The Hexagon : ](http://statique.lamarseillaise.fr/media/k2/items/cache/cd488397a809507b8a4339f3552e8c29_XL.jpg)
+
+
 - Hackathon presentations
 - Hotel Information
 - Marseille Information
