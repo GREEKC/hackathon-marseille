@@ -1,14 +1,21 @@
-## GREEKC Marseille Hackaton GitHub Repo
-
-You can use the [editor on GitHub](https://github.com/GREEKC/hackathon-marseille/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# GREEKC Marseille Hackaton GitHub repository
 
 
-## Useful links for organisers/all
+## Organising committee
+
+- Martin Kuiper
+- Jacques van Helden
+- Benoît Ballester
+- Rafael 	Riudavets
+- Thomas Rosnet
+
+## Participants
+
+TO BE ADDED
+
+## Practical organisation
 
 
-### Expected participants
-
-Link to Google Sheet
 
 ### Going to Marseille
 
