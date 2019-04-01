@@ -56,12 +56,18 @@ Price: around 65 euros (day price) to 80 euros (night price)
 
 
 ###  Hackathon presentations
+
+TO BE COMPLETED: we will create a folder with all the participants presentations
+
 ###  Hotel Information
 
 We advise to book hotels around `View Port` area, and between `Castellane` to `Rond point du Prado` area. 
 Those are the most convenient areas for commute to Luminy, nearby city center and nearby Buses and Metro lines. 
 
 ### Marseille Information
+
+In order to ensure easy access to the campus Luminy as well as to the City center, the most convenient is to find an hotel between Prado and Castellane. We had good feedback from hosts of CITADINES PRADO CHANOT MARSEILLE (9-11 Boulevard du Louvain, Marseille, 13008, France), who are renting studios for a reasonable price. Other hotels and studio rental can be found in the neighborhood. 
+
 
 Please check [the tourist information website](http://www.marseille-tourisme.com/en/) for details about organizing your stay in Marseille, and some practical informations. 
 
@@ -104,33 +110,3 @@ Register here : link to Google sheet
 - Diner 26 April: 
 Register here : link to Google sheet
 
-
-
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GREEKC/hackathon-marseille/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
