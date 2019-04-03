@@ -13,6 +13,11 @@
 
 TO BE ADDED
 
+## Schedule
+
+[Schedule](schedule.md)
+
+
 ## Practical info
 
 [Practical information](practical_info.md)
