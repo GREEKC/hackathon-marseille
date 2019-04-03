@@ -4,10 +4,10 @@
 ## Organising committee
 
 - Martin Kuiper
-- Jacques van Helden
-- Benoît Ballester
+- Jacques van Helden (Institut Français de Bioinformatique + Aix-Marseille Université)
+- Benoît Ballester (Inserm, TAGC lab)
 - Rafael 	Riudavets
-- Thomas Rosnet
+- Thomas Rosnet (Institut Français de Bioinformatique)
 
 ## Participants
 
