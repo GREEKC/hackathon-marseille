@@ -1,10 +1,3 @@
 # Description of the hacking projects
 
-## Pre-hackathon preparation
-
-## Description of the project
-
-- slides
-
-... 
-
+- [Workflow for the analysis of disease-associated regulatory variants]()
