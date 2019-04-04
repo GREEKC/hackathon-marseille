@@ -1,3 +1,4 @@
+## 23rd of April
 | From | To | Topics |
 |--------|------|------------------------------------------|
 | 12:30 | 13:45 | Lunch (on registration)| 
@@ -11,6 +12,10 @@
  | 16:55 | 17:25 | Organisation of the work groups| 
  | 17:25 | 17:25 | End of day 1 sessions| 
  | 19:30 | 22:00 | Dinner (registration needed)| 
+ 
+ ## 24th of April
+ | From | To | Topics |
+|--------|------|------------------------------------------|
  | 09:30 | 10:30 | Hacking session 1| 
  | 10:30 | 10:50 | Coffee break| 
  | 10:50 | 12:20 | Hacking session 2| 
@@ -20,6 +25,10 @@
  | 15:50 | 16:20 | Preparation of hacking reports for day 1| 
  | 16:20 | 17:20 | Reporting of hacking results, achievements, difficulties, next steps| 
  | 19:30 | 22:00 | Dinner (registration needed)| 
+ 
+ ## 25th of April
+ | From | To | Topics |
+|--------|------|------------------------------------------|
  | 09:30 | 10:30 | Hacking session 4| 
  | 10:30 | 10:50 | Coffee break| 
  | 10:50 | 12:20 | Hacking session 5| 
@@ -29,6 +38,10 @@
  | 15:50 | 16:20 | Preparation of hacking reports for day 1| 
  | 16:20 | 17:20 | Reporting of hacking results, achievements, difficulties, next steps| 
  | 19:30 | 22:00 | Dinner (registration needed)| 
+ 
+ ## 26th of April
+ | From | To | Topics |
+|--------|------|------------------------------------------|
  | 09:30 | 11:00 | Writeathon| 
  | 11:00 | 11:20 | Coffee break| 
  | 11:20 | 12:20 | Concluding session| 
