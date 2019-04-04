@@ -1,4 +1,4 @@
-# Interfacing dev ReMap2020 with REST
+# Interfacing ReMap2020 (in dev locally) with REST API
 
 ## Motivation
 
@@ -8,6 +8,7 @@ It runs on:
 - AdminLTE template
 - MySQL
 - Adminer
+We want to make our resource interoperable. 
 
 ## State fo the ReMap resource
 
