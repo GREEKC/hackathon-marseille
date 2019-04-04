@@ -9,7 +9,11 @@ It runs on:
 - MySQL
 - Adminer
 
-## Exsiting Resource
+## State fo the ReMap resource
+
+## How to plug REST to ReMap/Laravel 
+
+## Which REST queries to make ?
 
 ## Expected attendees
  - Benoit Ballester
