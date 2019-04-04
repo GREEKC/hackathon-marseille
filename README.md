@@ -52,6 +52,11 @@
 
 [Schedule](schedule.md)
 
+## Project descriptions 
+
+(in construction)
+
+[Project descriptions](project_descriptions)
 
 ## Practical info
 
