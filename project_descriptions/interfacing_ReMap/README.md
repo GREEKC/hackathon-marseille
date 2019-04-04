@@ -12,8 +12,13 @@ It runs on:
 ## State fo the ReMap resource
 
 ## How to plug REST to ReMap/Laravel 
+- Ask Aziz & Thomas
+- Which tool to use
 
 ## Which REST queries to make ?
+Ask users, and list below the queries.
+- Fetch all available datasets given a TF name
+- Fetch all available datasets given a Biotype name
 
 ## Expected attendees
  - Benoit Ballester
