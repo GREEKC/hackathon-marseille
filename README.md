@@ -11,7 +11,42 @@
 
 ## Participants
 
-TO BE ADDED
+### Trainers
+- Alban Gaignard
+- Astrid Lagreid
+- Benoît Ballester
+- Daniel Zerbino
+- Jacques van Helden
+- Maria del Mar Roldán García
+- Martin Kuiper
+- Noemi del Toro Ayllon
+- Thuy Nga Thi Nguyen
+- Vincent Lefort
+
+### Trainees
+
+- Aziz Khan
+- Christian Holland
+- Cristina Vicente García
+- David Salgado
+- Ferran Moratalla
+- Ivan Berest
+- Jaime Castro Mondragon
+- John Zobolas
+- Lucie Khamvongsa
+- Matthieu Defrance
+- Mirjana Novkovic
+- Pavel Kravchenko
+- Pavels Sarajevs
+- Radoslav Davidovic
+- Rafael Riudavets
+- Sandro Hurtado Requena
+- Tamara Babić
+- Thomas Rosnet
+- Vasundra Toure
+- Vesselin Baev
+- Yulia Medvedeva
+- Yvon Mbouamboua
 
 ## Schedule
 
