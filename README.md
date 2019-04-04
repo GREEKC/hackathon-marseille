@@ -42,11 +42,6 @@ You can get PDFs of various maps [Here](http://www.marseille-tourisme.com/en/pra
 
 ### Comments & Ideas
 
-## Schedule / Agenda
-
-Link to the Google Sheet
-
-
 ## Social Events
 
 ### Calanques hike
