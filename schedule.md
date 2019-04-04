@@ -33,16 +33,14 @@
  | 10:30 | 10:50 | Coffee break| 
  | 10:50 | 12:20 | Hacking session 5| 
  | 12:30 | 13:45 | Lunch| 
- | 14:00 | 15:30 | Documentathon - Technical doc for the implemented resources| 
- | 15:30 | 15:50 | Coffee break| 
- | 15:50 | 16:20 | Preparation of hacking reports for day 1| 
- | 16:20 | 17:20 | Reporting of hacking results, achievements, difficulties, next steps| 
- | 19:30 | 22:00 | Dinner (registration needed)| 
+ | 14:00 | 15:00 | Documentathon - Technical doc for the implemented resources| 
+ | 15:00 | 18:30 | Hike to the Calanques| 
+ | 18:30 | 21:00 | Free evening (no organised dinner)| 
  
  ## 26th of April
  | From | To | Topics |
 |--------|------|------------------------------------------|
- | 09:30 | 11:00 | Writeathon| 
+ | 9:30 | 11:00 | Documentathon - Technical doc for the implemented resources| 
  | 11:00 | 11:20 | Coffee break| 
  | 11:20 | 12:20 | Concluding session| 
  | 12:30 | 13:45 | Lunch| 
