@@ -1,4 +1,4 @@
-# A workflow to infer Transcription Factor - Target Gene regulatory interactions from ChIP-seq, Hi-C, RNA-seq and ATAC-seq
+# A workflow to infer Transcription Factor - Target Gene regulatory interactions from the integration of ChIP-seq, Hi-C, RNA-seq and ATAC-seq data
 
 
 ## Project proponent
