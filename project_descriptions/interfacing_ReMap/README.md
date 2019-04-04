@@ -11,7 +11,11 @@ It runs on:
 
 ## Exsiting Resource
 
-## Needs
-
+## Expected attendees
+ - Benoit Ballester
+ - Aziz Kan
+ - Aurélie Bergon
+ - Fabrice Lopez
+ - Thomas Rosnet
 
 
