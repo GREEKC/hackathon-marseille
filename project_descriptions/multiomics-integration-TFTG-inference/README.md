@@ -9,16 +9,11 @@
 
 Transcription regulation is a complex process that involves the interaction of many regulatory layers. Different types of omics data let us peak into these different layers, but none of them gives us a complete view of the whole panorama. Integration of these different layers can potentially get us closer to viewing the bigger picture, where more complex hypotheses can be built and tested. Of course, the experimental setup is as important as the analysis framework. By designing experiments that allow us to finely activate a Transcription Factor followed by the assessment of the changes in all the known regulatory layers, we can potentially get an idea of the genes that are regulated by the affected Transcription Factor. 
 
-Thus, the motivation of this project is to define a workflow going from the Wet lab to the Dry lab that will allow us to study the potential Target Genes of a specific Transcription Factor given a specific Biological context such as genome 3D organisation (Hi-C), chromatin marks (histone ChIP-seq), DNA accessibility (ATAC-seq), Transcription dynamics (RNA-seq) and Transcription Factor Binding events (Transcription Factor ChIP-seq).
-
-### Interoperability issues
-
-    
+Thus, the motivation of this project is to design a workflow going from the Wet lab to the Dry lab that will allow us to study the potential Target Genes of a Transcription Factor given a specific Biological context such as genome 3D organisation (Hi-C), chromatin marks (histone ChIP-seq), DNA accessibility (ATAC-seq), Transcription dynamics (RNA-seq) and Transcription Factor Binding events (Transcription Factor ChIP-seq).
 
 ## Mobilized resources
 
 The table below provides the URL of each resource mobilised by the workflow, and indicates their API if available:
-
 
 | Resource name | Data types |  URL | Access mode in the workflow |
 |-----------------|----------------|----------------|-------------------|
@@ -37,34 +32,15 @@ Main R packages
     - biomaRt
     - GenomicRanges
     - rtracklayer
-
-## Needs
-
-
-
+    
 ## Requested skills for the hacking
 
 - NGS data analysis
 - Data integration
 
-## Expected participants
-
-
-
-## Expected deliveries
-
-- A workflow that allows the inference of Transcription Factor - Target Gene regulatory interactions given input data.
-- A Transcription Factor - Target Gene interaction matrix. 
-
 ### Final goal
 
 We aim at providing workflow that, given the necessary data types as input, will compute a gene regulation matrix. As an example, we aim at generating one of these matrices from an already existing dataset. 
-
-### Intermediate goals and milestones
-
-After day 1, ...
-
-After day 2, ...
 
 ### Deliverables
 
