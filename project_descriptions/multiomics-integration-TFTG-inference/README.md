@@ -29,9 +29,9 @@ The workflow is written in R. Some reports might be generated using R Markdown. 
 
 Main R packages
     
-    - biomaRt
-    - GenomicRanges
-    - rtracklayer
+   - biomaRt
+   - GenomicRanges
+   - rtracklayer
     
 ## Requested skills for the hacking
 
