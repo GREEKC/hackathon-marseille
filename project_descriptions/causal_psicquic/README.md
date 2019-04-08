@@ -40,6 +40,7 @@ Open discussions:
 - [PSICQUIC and PSISCORE: accessing and scoring molecular interactions](https://www.nature.com/articles/nmeth.1637)
 - [A new reference implementation of the PSICQUIC web service](https://academic.oup.com/nar/article/41/W1/W601/1100276)
 - [PSICQUIC documentation](http://psicquic.github.io/)
+- [CausalTAB: the PSI-MITAB 2.8 updated format for signalling data representation and dissemination](https://doi.org/10.1093/bioinformatics/btz132)
 
 ## Related GitHub repositories
 
