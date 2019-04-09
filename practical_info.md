@@ -45,3 +45,20 @@ Price: around 65 euros (day price) to 80 euros (night price)
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11627.896687368744!2d5.433221280720204!3d43.23100116783698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9b9ac4de888d7%3A0x35aa62955b153ea2!2sBiblioth%C3%A8que+universitaire+Hexagone+de+Luminy!5e0!3m2!1sfr!2sfr!4v1553854427711!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 ![The Hexagon:](http://statique.lamarseillaise.fr/media/k2/items/cache/cd488397a809507b8a4339f3552e8c29_XL.jpg)
+
+
+###  Hotel Information
+
+We advise to book hotels around `View Port` area, and between `Castellane` to `Rond point du Prado` area. 
+Those are the most convenient areas for commute to Luminy, nearby city center and nearby Buses and Metro lines. 
+
+### Marseille Information
+
+In order to ensure easy access to the campus Luminy as well as to the City center, the most convenient is to find an hotel between Prado and Castellane. We had good feedback from hosts of CITADINES PRADO CHANOT MARSEILLE (9-11 Boulevard du Louvain, Marseille, 13008, France), who are renting studios for a reasonable price. Other hotels and studio rental can be found in the neighborhood. 
+
+
+Please check [the tourist information website](http://www.marseille-tourisme.com/en/) for details about organizing your stay in Marseille, and some practical informations. 
+
+You can get PDFs of various maps [Here](http://www.marseille-tourisme.com/en/pratical-information/touristic-documents/) 
+
+### Comments & Ideas
