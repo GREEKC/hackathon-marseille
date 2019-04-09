@@ -82,7 +82,7 @@ IMPORTANT NOTE : This is a ~3h hike on realtively good terrain, but dress accord
 
 
 
-## Diners 
+## Registration to the meals 
 
 Please register to the Google sheet for lunches and dinners. 
 
