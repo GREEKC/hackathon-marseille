@@ -88,8 +88,8 @@ Please register to the Google sheet for lunches and dinners.
 
 <http://tinyurl.com/greekc-mrs19-participants>
 
-- On April 24 and 25, the lunches will be paid by us
-- All the other meals (lunches and dinners) have to be paid by each participant, with a flat-rate refund of 20€ per meal, to be claimed on the COST Web site
+- On April 24 and 25, the lunches will be paid by us.
+- All the other meals (lunches and dinners) have to be paid by each participant, with a flat-rate refund of 20€ per meal, to be claimed on the COST Web site.
 - On April 23 and 26, the lunches will be taken at the cafetaria of the university, with a cost of ~7.5€. Dinners will likely be more expensive than 20€ but the weaker cost of the lunch will hopefully compensate. 
 
 ## Social event
