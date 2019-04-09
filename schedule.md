@@ -14,7 +14,7 @@
 | 17:25 | 17:25 | End of day 1 sessions| 
 | 19:30 | 22:00 | Dinner (registration needed)| 
  
- ## 24th of April
+## 24th of April
  
 | From | To | Topics |
 |--------|------|------------------------------------------|
@@ -28,7 +28,7 @@
 | 16:20 | 17:20 | Reporting of hacking results, achievements, difficulties, next steps| 
 | 19:30 | 22:00 | Dinner (registration needed)| 
  
- ## 25th of April
+## 25th of April
 
 | From | To | Topics |
 |--------|------|------------------------------------------|
@@ -40,7 +40,7 @@
 | 15:00 | 18:30 | Hike to the Calanques| 
 | 18:30 | 21:00 | Free evening (no organised dinner)| 
 
- ## 26th of April
+## 26th of April
 
 | From | To | Topics |
 |--------|------|------------------------------------------|
