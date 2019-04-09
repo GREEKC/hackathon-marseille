@@ -49,11 +49,16 @@ Main R packages
    - biomaRt
    - GenomicRanges
    - rtracklayer
+   - DESeq2
     
 ## Requested skills for the hacking
 
-- NGS data analysis
-- Data integration
+- NGS data analysis:
+  - Hi-C
+  - ChIP-seq (histones or transcription factors)
+  - RNA-seq
+  - ATAC-seq
+- Data integration approaches
 - R
 
 ### Final goal
