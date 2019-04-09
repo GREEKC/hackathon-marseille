@@ -13,9 +13,9 @@
 
 ### Trainers
 - Alban Gaignard
+- Andrew Parton
 - Astrid Lagreid
 - Benoît Ballester
-- Daniel Zerbino
 - Jacques van Helden
 - Maria del Mar Roldán García
 - Martin Kuiper
