@@ -58,29 +58,15 @@
 
 [Project descriptions](project_descriptions)
 
+##  Hackathon presentations
+
+TO BE COMPLETED: we will create a folder with all the participants presentations
+
+
 ## Practical info
 
 [Practical information](practical_info.md)
 
-###  Hackathon presentations
-
-TO BE COMPLETED: we will create a folder with all the participants presentations
-
-###  Hotel Information
-
-We advise to book hotels around `View Port` area, and between `Castellane` to `Rond point du Prado` area. 
-Those are the most convenient areas for commute to Luminy, nearby city center and nearby Buses and Metro lines. 
-
-### Marseille Information
-
-In order to ensure easy access to the campus Luminy as well as to the City center, the most convenient is to find an hotel between Prado and Castellane. We had good feedback from hosts of CITADINES PRADO CHANOT MARSEILLE (9-11 Boulevard du Louvain, Marseille, 13008, France), who are renting studios for a reasonable price. Other hotels and studio rental can be found in the neighborhood. 
-
-
-Please check [the tourist information website](http://www.marseille-tourisme.com/en/) for details about organizing your stay in Marseille, and some practical informations. 
-
-You can get PDFs of various maps [Here](http://www.marseille-tourisme.com/en/pratical-information/touristic-documents/) 
-
-### Comments & Ideas
 
 ## Social Events
 
