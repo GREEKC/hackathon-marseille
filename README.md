@@ -79,22 +79,19 @@ IMPORTANT NOTE : This is a ~3h hike on realtively good terrain, but dress accord
 
 ![Image](https://fr.wikipedia.org/wiki/Calanque_de_Sugiton#/media/File:Calanque_de_Sugiton.JPG) 
 
-### Diners 
 
-Please register to the Google sheet for each Diner. 
 
-- Diner 22 April :
-Register here : link to Google sheet
 
-- *Main Diner* 23 April: 
-Register here : link to Google sheet
+## Diners 
 
-- Diner 24 April: 
-Register here : link to Google sheet
+Please register to the Google sheet for lunches and dinners. 
 
-- Diner 25 April: 
-Register here : link to Google sheet
+<http://tinyurl.com/greekc-mrs19-participants>
 
-- Diner 26 April: 
-Register here : link to Google sheet
+- On April 24 and 25, the lunches will be paid by us
+- All the other meals (lunches and dinners) have to be paid by each participant, with a flat-rate refund of 20€ per meal, to be claimed on the COST Web site
+- On April 23 and 26, the lunches will be taken at the cafetaria of the university, with a cost of ~7.5€. Dinners will likely be more expensive than 20€ but the weaker cost of the lunch will hopefully compensate. 
 
+## Social event
+
+The social event (Thursday April 25 PM) is a hike to the [Calanque de Sugiton](http://www.calanques13.com/en/calanque-sugiton.html) (it is of course free of charge), starting from the campus Luminy. This includes a ~40 minutes walk from Luminy to the Calanques, and ~50' for the way back. 
