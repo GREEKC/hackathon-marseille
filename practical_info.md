@@ -26,7 +26,7 @@ Price: around 65 euros (day price) to 80 euros (night price)
 - *Bus B1* (From Castellane - Campus de Luminy). Opportunity to take the rond point du Prado in correspondence with the Metro 2 Bougainville-Ste Marguerite/Dromel.
 - *Bus 21J* (JET BUS) (From Rond-Point du Prado - Campus de Luminy). Only during school times, in correspondence with the Metro 2 Bougainville-Ste Marguerite/Dromel.
 - *Bus 24 or 24B* (From Ste Marguerite/Dromel - Campus de Luminy). In correspondence with the Metro 2 Bougainville-Ste Marguerite/Dromel.
-- INFO: The metro lines 1 and 2 operate from 5h00 to 21h00 weekdays and until 00h30 on Fridays, Saturdays and Sundays.
+- INFO: The metro lines 1 and 2 operate from 5h00 to 00h30 all the week.
 - [Marseille Bus Maps](http://www.rtm.fr/en/travellers-guide/getting-around/maps)
 - [Marseille Metro Map PDF](http://www.rtm.fr/en/travellers-guide/getting-around/maps)
 
