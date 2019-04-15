@@ -7,7 +7,10 @@ In this page you will find all the possible projects to join during the hackatho
 
 # Description of the hacking projects
 
-- [Workflow for the analysis of disease-associated regulatory variants](workflow_disease-associated-rSNPs/) 
-- [Interfacing ReMap2020 with REST API](interfacing_ReMap/) 
-- [Transcription Factor - Target Gene regulatory interactions inference from multiomics data integration](multiomics-integration-TFTG-inference/)
-- [PSICQUIC for causal interactions and network modelling](causal_psicquic/)
+1. [Workflow for the analysis of disease-associated regulatory variants](workflow_disease-associated-rSNPs/) 
+2. [Interfacing ReMap2020 with REST API](interfacing_ReMap/) 
+3. [Transcription Factor - Target Gene regulatory interactions inference from multiomics data integration](multiomics-integration-TFTG-inference/)
+4. [PSICQUIC for causal interactions and network modelling](causal_psicquic/)
+5. [Annotation of GREEKC-related tools and data types in bio.tools and EDAM ontology](bio.tools_annotation/)
+
+6. Text mining (to be confirmed by Martin)
