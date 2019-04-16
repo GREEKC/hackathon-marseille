@@ -14,3 +14,5 @@ In this page you will find all the possible projects to join during the hackatho
 5. [Annotation of GREEKC-related tools and data types in bio.tools and EDAM ontology](bio.tools_annotation/)
 
 6. Text mining (to be confirmed by Martin)
+
+7. [Adding the RESTful interface to UniBind](interfacing_UniBind/) 
