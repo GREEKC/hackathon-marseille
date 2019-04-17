@@ -88,7 +88,16 @@ Please register to the Google sheet for lunches and dinners.
 
 <http://tinyurl.com/greekc-mrs19-participants>
 
-The meals (lunches ans dinners) have to be paid by each participant, with a flat-rate refund of 20€ per meal, to be claimed on the COST Web site. We indicate the approcimate price of each lunch above the header of the registration columns. Note that the lunches of April 24 and 25 will be of higher quality than on 23 and 26. They have a higher price but are still below the refund flat rate. 
+The meals (lunches ans dinners) have to be paid by each participant, with a flat-rate refund of 20€ per meal, to be claimed on the COST Web site. We indicate the approximate price of each lunch above the header of the registration columns. Note that the lunches of April 24 and 25 will be of higher quality than on 23 and 26. They have a higher price but are still below the refund flat rate. 
+
+The meals we will have are:
+
+- Lunch 23rd April: the lunch will be at the Campus restaurant with an estimated price of 8 euros.
+- Dinner 23rd April: we will go to the [Nul part Ailleurs restaurant](http://www.restaurantnulpartailleurs.com/la-carte-1.html). The estimated price is around 25 euros. 
+- Lunch 24th April: we will have lunch at the Campus restaurant (estimated price of 20 euros). 
+- Dinner 24th April: we will go to the restaurant [La Crêpe Au carré](http://www.lacrepeaucarre.com/notre-carte.aspx). The average price is of 30 euros, but it will depend on what each participants orders. 
+- Lunch 25th April: we will have lunch at the Campus Restaurant for an estimated price of 20 euros. 
+- Lunch 26th April: we will have lunch at the Campus Restaurant for an estimated price of 8 euros.
 
 ## Social event
 
