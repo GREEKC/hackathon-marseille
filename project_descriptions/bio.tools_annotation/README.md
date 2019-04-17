@@ -46,12 +46,13 @@ The table below provides the URL of each resource mobilised by the workflow, and
 ## Expectated deliveries
 
 
-- 
-- 
+- a list of all the tools, database and data types/formats used in the other projects of the hackathon
+- a description of as many as possible of these tools and database in bio.tools
+- identifying all these the data types in EDAM and reporting the missing ones 
 
 ### Final goal
 
-At the end of the hackathon, we aim at
+At the end of the hackathon, we aim at ...
 
 
 ### Intermediate goals and milestones
