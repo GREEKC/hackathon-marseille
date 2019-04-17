@@ -2,9 +2,9 @@
 
 | From | To | Topics |
 |--------|------|------------------------------------------|
-| 12:30 | 13:45 | Lunch (on registration)| 
-| 14:00 | 14:15 | Welcome, logistic information, refund mechanisms| 
-| 14:15 | 14:25 | GREEKC goals and current results| 
+| 12:30 | 13:30 | Lunch (on registration)| 
+| 13:30 | 14:0 | Registration| 
+| 14:00 | 14:15 | Welcome, logistic information, refund mechanisms| | 14:15 | 14:25 | GREEKC goals and current results| 
 | 14:25 | 14:35 | Goals and organisation of the hack-a-thon| 
 | 14:35 | 15:50 | Presentation of the attendees| 
 | 15:50 | 15:50 | Presentation and discussion of the projects| 
