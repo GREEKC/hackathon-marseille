@@ -93,9 +93,9 @@ The meals (lunches ans dinners) have to be paid by each participant, with a flat
 The meals we will have are:
 
 - Lunch 23rd April: the lunch will be at the Campus restaurant with an estimated price of 8 euros.
-- Dinner 23rd April: we will go to the [Nul part Ailleurs restaurant](http://www.restaurantnulpartailleurs.com/la-carte-1.html). The estimated price is around 25 euros. 
+- Dinner 23rd April: we will go to the [Nul part Ailleurs restaurant](http://www.restaurantnulpartailleurs.com/la-carte-1.html). The average price is of 30 euros, but it will depend on what each participants orders. 
 - Lunch 24th April: we will have lunch at the Campus restaurant (provided by the local organisers). 
-- Dinner 24th April: we will go to the restaurant [La Crêpe Au carré](http://www.lacrepeaucarre.com/notre-carte.aspx). The average price is of 30 euros, but it will depend on what each participants orders. 
+- Dinner 24th April: we will go to the restaurant [La Crêpe Au carré](http://www.lacrepeaucarre.com/notre-carte.aspx). The estimated price is around 25 euros. 
 - Lunch 25th April: we will have lunch at the Campus Restaurant (provided by the local organisers). 
 - Lunch 26th April: we will have lunch at the Campus Restaurant for an estimated price of 8 euros.
 
