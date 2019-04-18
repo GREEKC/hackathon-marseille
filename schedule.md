@@ -6,7 +6,7 @@
 | 13:30 | 14:00 | Welcome, registration| Hexagone auditorium |
 | 14:00 | 14:15 | Welcome, logistic information, refund mechanisms | Hexagone auditorium |
 | 14:15 | 14:25 | GREEKC goals and current results | Hexagone auditorium |
-| 14:25 | 14:35 | Goals and organisation of the hack-a-thon | Hexagone auditorium |
+| 14:25 | 14:35 | Goals and organisation of the hackathon | Hexagone auditorium |
 | 14:35 | 15:50 | Presentation of the attendees | Hexagone auditorium |
 | 15:50 | 15:50 | Presentation and discussion of the projects | Hexagone auditorium |
 | 15:50 | 16:10 | Coffee break | hexagone cafeteria/exposition hall |
