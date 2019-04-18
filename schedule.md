@@ -1,5 +1,6 @@
 ## 23rd of April
 
+|-------|-------|-------------------------|-------|
 | 12:30 | 13:30 | Lunch (on registration) | CROUS |
 | 13:30 | 14:00 | Welcome, registration| Hexagone auditorium |
 | 14:00 | 14:15 | Welcome, logistic information, refund mechanisms | Hexagone auditorium |
