@@ -29,12 +29,12 @@
 | 15:50 | 16:20 | Preparation of hacking reports for day 1 | hexagone workrooms |
 | 16:20 | 17:20 | Reporting of hacking results, achievements, difficulties, next steps | Hexagone auditorium |
 | 19:30 | 22:00 | Dinner (registration needed) | La Crêpe Au Carré |
-| 9:30 | 10:30 | Hacking session 4 | hexagone workrooms |
 
 ## 25th of April
 
 | From | To | What | Where |
 |-------|-------|-------------------------|-------|
+| 9:30 | 10:30 | Hacking session 4 | hexagone workrooms |
 | 10:30 | 10:50 | Coffee break | hexagone cafeteria/exposition hall |
 | 10:50 | 12:20 | Hacking session 5 | hexagone workrooms |
 | 12:30 | 13:45 | Lunch | CROUS restaurant |
