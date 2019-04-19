@@ -74,12 +74,11 @@ TO BE COMPLETED: we will create a folder with all the presentations
 [Practical information](practical_info.md)
 
 
-## Social Events
+## Social event
 
-### Calanques hike
+The social event (Thursday April 25 PM) is a hike to the [Calanque de Sugiton](http://www.calanques13.com/en/calanque-sugiton.html) (it is of course free of charge). 
 
 Starting from the Luminy campus, we will walk to the [calanques](https://en.wikipedia.org/wiki/Massif_des_Calanques), first to the `Belvedere` (view point), and then down to the [Calanque of Sugiton](https://en.wikipedia.org/wiki/Calanque_de_Sugiton). 
-
 
 IMPORTANT NOTE : This is a ~3h hike on realtively good terrain, but dress accordingly if you come. Have at least some good shoes (trainers are ok) and a little back pack with water (1.5L). The sea temperature is `cold` around 14/15 degres, some might be interested in dipping their toes. 
 
@@ -103,6 +102,3 @@ The meals we will have are:
 - Lunch 25th April: we will have lunch at the Campus Restaurant (provided by the local organisers). 
 - Lunch 26th April: we will have lunch at the Campus Restaurant for an estimated price of 8 euros.
 
-## Social event
-
-The social event (Thursday April 25 PM) is a hike to the [Calanque de Sugiton](http://www.calanques13.com/en/calanque-sugiton.html) (it is of course free of charge), starting from the campus Luminy. This includes a ~40 minutes walk from Luminy to the Calanques, and ~50' for the way back. 
