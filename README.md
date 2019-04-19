@@ -93,7 +93,7 @@ Please register to the Google sheet for lunches and dinners.
 
 The meals (lunches ans dinners) have to be paid by each participant, with a flat-rate refund of 20€ per meal, to be claimed on the COST Web site. We indicate the approximate price of each lunch above the header of the registration columns. Note that the lunches of April 24 and 25 will be of higher quality than on 23 and 26. They have a higher price but are still below the refund flat rate. 
 
-The meals we will have are:
+Summary of the meals:
 
 - Lunch 23rd April: the lunch will be at the Campus restaurant with an estimated price of 8 euros.
 - Dinner 23rd April: we will go to the [Nul part Ailleurs restaurant](http://www.restaurantnulpartailleurs.com/la-carte-1.html). The average price is of 30 euros, but it will depend on what each participants orders. 
