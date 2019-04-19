@@ -1,7 +1,7 @@
 # GREEKC Marseille Hackaton GitHub repository
 
 
-A training hackathon co-organised by the EU COST action [GREEKC](http://greekc.org/) (Gene Regulation Ensemble Effort for the Knowledge Commons) and the [IFB](https://www.france-bioinformatique.fr/)/[ELIXIR-FR](https://elixir-europe.org/about-us/who-we-are/nodes/france) (Institut Français de Bioinformatique, French node of the ELIXIR network). 
+A training hackathon co-organised by the EU COST action [GREEKC](http://greekc.org/) (Gene Regulation Ensemble Effort for the Knowledge Commons) and [IFB](https://www.france-bioinformatique.fr/)/[ELIXIR-FR](https://elixir-europe.org/about-us/who-we-are/nodes/france) (Institut Français de Bioinformatique, French node of the ELIXIR network). 
 
 
 
