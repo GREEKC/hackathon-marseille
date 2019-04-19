@@ -58,7 +58,7 @@ The hackathon will take place on the Campus Luminy (maps below).
 
 #### Hexagon building (working sessions)
 
-The work session will take place in the Hexagon building
+The work session will take place in the Hexagon building (rooms per session are indicated in the [schedule](schedule.md)).
 
 
 [![The Hexagon building on Campus Luminy. ](images/hexagon.jpg)](images/hexagon.jpg)
@@ -66,14 +66,13 @@ The work session will take place in the Hexagon building
 
 #### Restaurant universitaire (lunches)
 
-The lunches will be taken in the back room of the faculty restaurant (Restaurant Universitaire on the campus map)? 
+The lunches will be taken in the back room of the faculty restaurant ("*Restaurant Universitaire*" on the [campus map](images/campus_luminy.pdf)). Beware, the restaurant has separate queues and rooms for students and for the personnel. We will have our lunches at the rear of the restaurant, in the "personnel" area. 
 
 [![Restaurant universitaire. ](images/resto-u2.jpg)](images/resto-u2.jpg)
 
 ###  Hotel Information
 
-We advise to book hotels around `View Port` area, and between `Castellane` to `Rond point du Prado` area. 
-Those are the most convenient areas for commute to Luminy, nearby city center and nearby Buses and Metro lines. 
+We advise to book hotels either around **Vieux Port** area, or between **Castellane** to **Rond point du Prado** area. Those are the most convenient areas for commute to Luminy, nearby city center and nearby Buses and Metro lines. 
 
 ### Marseille Information
 
