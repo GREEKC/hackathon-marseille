@@ -58,8 +58,6 @@ A training hackathon co-organised by the EU COST action [GREEKC](http://greekc.o
 
 ## Project descriptions 
 
-(in construction)
-
 [Project descriptions](project_descriptions)
 
 ##  Hackathon presentations
