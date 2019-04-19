@@ -62,7 +62,11 @@ A training hackathon co-organised by the EU COST action [GREEKC](http://greekc.o
 
 ##  Hackathon presentations
 
-TO BE COMPLETED: we will create a folder with all the participants presentations
+TO BE COMPLETED: we will create a folder with all the presentations
+
+- participants
+- projects
+- bioinformatics resources
 
 
 ## Practical info
@@ -80,8 +84,6 @@ Starting from the Luminy campus, we will walk to the [calanques](https://en.wiki
 IMPORTANT NOTE : This is a ~3h hike on realtively good terrain, but dress accordingly if you come. Have at least some good shoes (trainers are ok) and a little back pack with water (1.5L). The sea temperature is `cold` around 14/15 degres, some might be interested in dipping their toes. 
 
 ![Image](https://fr.wikipedia.org/wiki/Calanque_de_Sugiton#/media/File:Calanque_de_Sugiton.JPG) 
-
-
 
 
 ## Registration to the meals 
