@@ -82,7 +82,7 @@ Starting from the Luminy campus, we will walk to the [calanques](https://en.wiki
 
 IMPORTANT NOTE : This is a ~3h hike on realtively good terrain, but dress accordingly if you come. Have at least some good shoes (trainers are ok) and a little back pack with water (1.5L). The sea temperature is `cold` around 14/15 degres, some might be interested in dipping their toes. 
 
-[![Calanque de Sugiton](https://upload.wikimedia.org/wikipedia/commons/3/38/Calanque_de_Sugiton.JPG)](https://fr.wikipedia.org/wiki/Calanque_de_Sugiton)
+[![Calanque de Sugiton](https://upload.wikimedia.org/wikipedia/commons/3/38/Calanque_de_Sugiton.JPG)](https://en.wikipedia.org/wiki/Calanque_de_Sugiton)
 
 
 ## Registration to the meals 
