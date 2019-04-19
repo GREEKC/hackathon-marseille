@@ -40,12 +40,35 @@ Price: around 65 euros (day price) to 80 euros (night price)
 - student accommodation (CROUS, Residence Studies...)
 - sports facilities (tennis, stadiums, swimming pool...), hiking trails, limestone for climbing...
 
-### Luminy Campus map / Location of Hexagon
+### Luminy Campus locations
+
+The hackathon will take place on the Campus Luminy (maps below). 
+
+- Working sessions: Hexagon building
+- Lunches: Restaurant universitaire CROUS
+
+#### Access to the campus Luminy
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11627.896687368744!2d5.433221280720204!3d43.23100116783698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9b9ac4de888d7%3A0x35aa62955b153ea2!2sBiblioth%C3%A8que+universitaire+Hexagone+de+Luminy!5e0!3m2!1sfr!2sfr!4v1553854427711!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-![The Hexagon:](http://statique.lamarseillaise.fr/media/k2/items/cache/cd488397a809507b8a4339f3552e8c29_XL.jpg)
 
+#### Campus map
+
+[![Map of the campus Luminy](images/campus_luminy.png)](images/campus_luminy.pdf)
+
+#### Hexagon building (working sessions)
+
+The work session will take place in the Hexagon building
+
+
+![The Hexagon building on Campus Luminy. ](images/hexagon.jpg)
+
+
+#### Restaurant universitaire (lunches)
+
+The lunches will be taken in the back room of the faculty restaurant (Restaurant Universitaire on the campus map)
+
+![Restaurant universitaire. ](images/resto-u2.jpg)
 
 ###  Hotel Information
 
