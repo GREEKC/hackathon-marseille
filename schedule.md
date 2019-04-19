@@ -1,8 +1,8 @@
 ## 23rd of April
 
 | From | To | What | Where |
-|-------|-------|-------------------------|-------|
-| 12:30 | 13:30 | Lunch (on registration) | CROUS |
+|-------|-------|------------------------------------|---------------------------|
+| 12:30 | 13:30 | Lunch (on registration) | Restaurant universitaire |
 | 13:30 | 14:00 | Welcome, registration| Hexagone auditorium |
 | 14:00 | 14:15 | Welcome, logistic information, refund mechanisms | Hexagone auditorium |
 | 14:15 | 14:25 | GREEKC goals and current results | Hexagone auditorium |
