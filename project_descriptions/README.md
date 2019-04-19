@@ -11,7 +11,7 @@ In this page you will find all the possible projects to join during the hackatho
 2. [Adding the RESTful interface to UniBind](interfacing_UniBind/) 
 3. [Transcription Factor - Target Gene regulatory interactions inference from multiomics data integration](multiomics-integration-TFTG-inference/)
 4. [Workflow for the analysis of disease-associated regulatory variants](workflow_disease-associated-rSNPs/) 
-5. [PSICQUIC for causal interactions and network modelling](causal_psicquic/)
-6. [Annotation of GREEKC-related tools and data types in bio.tools and EDAM ontology](bio.tools_annotation/)
+5. [Annotation of GREEKC-related tools and data types in bio.tools and EDAM ontology](bio.tools_annotation/)
+6. [PSICQUIC for causal interactions and network modelling](causal_psicquic/)
 7. Text mining (to be confirmed by Martin)
 
