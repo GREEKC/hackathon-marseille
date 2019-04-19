@@ -61,14 +61,14 @@ The hackathon will take place on the Campus Luminy (maps below).
 The work session will take place in the Hexagon building
 
 
-![The Hexagon building on Campus Luminy. ](images/hexagon.jpg)
+[![The Hexagon building on Campus Luminy. ](images/hexagon.jpg)](images/hexagon.jpg)
 
 
 #### Restaurant universitaire (lunches)
 
-The lunches will be taken in the back room of the faculty restaurant (Restaurant Universitaire on the campus map)
+The lunches will be taken in the back room of the faculty restaurant (Restaurant Universitaire on the campus map)? 
 
-![Restaurant universitaire. ](images/resto-u2.jpg)
+[![Restaurant universitaire. ](images/resto-u2.jpg)](images/resto-u2.jpg)
 
 ###  Hotel Information
 
