@@ -1,7 +1,7 @@
 ## 23rd of April
 
 | From | To | What | Where |
-|-------|-------|------------------------------------|---------------------------|
+|-------|-------|------------------------------------|---------------------------------|
 | 12:30 | 13:30 | Lunch (on registration)| CROUS restaurant (back room) |
 | 13:30 | 14:0 | Welcome, registration| Hexagone auditorium |
 | 14:0 | 14:15 | Welcome, logistic information, refund mechanisms| Hexagone auditorium |
@@ -19,7 +19,7 @@
 ## 24th of April
 
 | From | To | What | Where |
-|-------|-------|------------------------------------|---------------------------|
+|-------|-------|------------------------------------|---------------------------------|
 | 9:30 | 10:30 | Hacking session 1| hexagone workrooms |
 | 10:30 | 10:50 | Coffee break| hexagone cafeteria/exposition hall |
 | 10:50 | 12:20 | Hacking session 2| hexagone workrooms |
@@ -33,7 +33,7 @@
 ## 25th of April
 
 | From | To | What | Where |
-|-------|-------|------------------------------------|---------------------------|
+|-------|-------|------------------------------------|---------------------------------|
 | 9:30 | 10:30 | Hacking session 4| hexagone workrooms |
 | 10:30 | 10:50 | Coffee break| hexagone cafeteria/exposition hall |
 | 10:50 | 12:20 | Hacking session 5| hexagone workrooms |
@@ -45,7 +45,7 @@
 ## 26th of April
 
 | From | To | What | Where |
-|-------|-------|------------------------------------|---------------------------|
+|-------|-------|------------------------------------|---------------------------------|
 | 9:30 | 11:0 | Documentathon - Technical doc for the implemented resources| hexagone workrooms |
 | 11:0 | 11:20 | Coffee break| hexagone cafeteria/exposition hall |
 | 11:20 | 12:20 | Concluding session| Hexagone auditorium |
