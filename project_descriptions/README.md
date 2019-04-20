@@ -9,9 +9,9 @@ In this page you will find all the possible projects to join during the hackatho
 
 1. [Interfacing ReMap2020 with REST API](interfacing_ReMap/) 
 2. [Adding the RESTful interface to UniBind](interfacing_UniBind/) 
-3. [Annotation of GREEKC-related tools and data types in bio.tools and EDAM ontology](bio.tools_annotation/)
-4. [PSICQUIC for causal interactions and network modelling](causal_psicquic/)
-5. Text mining (to be confirmed by Martin)
+3. [RESTful interface for RSAT](RSAT-REST/readme.md)
+4. [Annotation of GREEKC-related tools and data types in bio.tools and EDAM ontology](bio.tools_annotation/)
+5. [PSICQUIC for causal interactions and network modelling](causal_psicquic/)
 6. [Transcription Factor - Target Gene regulatory interactions inference from multiomics data integration](multiomics-integration-TFTG-inference/)
 7. [Workflow for the analysis of disease-associated regulatory variants](workflow_disease-associated-rSNPs/) 
 

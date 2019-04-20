@@ -1,11 +1,11 @@
-# A workflow to analyse disease-associated regulatory variants
+# REST interface for RSAT
 
 
 ## Project proponent
 
 - [Jacques van Helden](https://github.com/jvanheld), Institut Français de Bioinformatique (IFB), Aix-Marseille Université (AMU), France
 
-## Participants
+## Expected participants
 
 - Jacques van Helden
 - Thuy Nga Thi Nguyen
