@@ -62,11 +62,7 @@ A training hackathon co-organised by the EU COST action [GREEKC](http://greekc.o
 
 ##  Hackathon presentations
 
-TO BE COMPLETED: we will create a folder with all the presentations
-
-- participants
-- projects
-- bioinformatics resources
+The folder with access to the presentations can be accessed [here](/presentations).
 
 
 ## Practical info
