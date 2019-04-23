@@ -38,6 +38,21 @@ Thuy Nga Thi Nguyen (Ecole Normale Supérieure, Paris, France), who developed th
 
 4. Implement small test and demo scripts invoking these web services with various languages.
 
+### Deliverables
+
+- REST interfaces for all the tools required by other hacking projects
+- A proper documentation of each entry point
+- Test / demo scripts in various languages
+- A first version of a user guide to RSAT REST Web services
+
+
+
+### Intermediate goals and milestones
+
+After day 1, ...
+
+After day 2, ...
+
 
 ## Mobilized resources
 
@@ -59,24 +74,4 @@ Thuy Nga Thi Nguyen (Ecole Normale Supérieure, Paris, France), who developed th
 - Code documentation
 - Scripting of REST clients in any language (Perl, python, java, R)
 
-
-## Expectated deliveries
-
-### Final goal
-
-At the end of the hackathon, we aim at providing a fully automated workflow relying as much as possible on APIs wihout having to download the full datasetsa dn parse them locally. 
-
-
-### Intermediate goals and milestones
-
-After day 1, ...
-
-After day 2, ...
-
-### Deliverables
-
-- REST interfaces for all the tools required by other hacking projects
-- A proper documentation of each entry point
-- Test / demo scripts in various languages
-- A first version of a user guide to RSAT REST Web services
 
