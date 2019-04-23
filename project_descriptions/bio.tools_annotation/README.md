@@ -30,7 +30,6 @@ During the hackathon, we will treat in priority the resources and objects used i
 
 The table below provides the URL of each resource mobilised by the workflow, and indicates their API if availeble. 
 
-
 | Resource name | Data types |  URL |
 |-----------------|----------------|----------------|
 | bio.tools | Database of bioinformatics tools and databases | <https://bio.tools/> |
@@ -40,30 +39,20 @@ The table below provides the URL of each resource mobilised by the workflow, and
 
 ## Requested skills for the hacking
 
-- Knowledge of tools, databases and data types used in thje field of gene regulation
+- Knowledge of tools, databases and data types used in the field of gene regulation
 - Ontologies
 
 ## Expectated deliveries
 
-
 - a list of all the tools, database and data types/formats used in the other projects of the hackathon
 - a description of as many as possible of these tools and database in bio.tools
-- identifying all these the data types in EDAM and reporting the missing ones 
+- identifying all these the data types in EDAM and reporting the missing ones, with a particular focus on tools input and outputs parameters (EDAM operations)
 
 ### Final goal
 
-At the end of the hackathon, we aim at ...
-
-
-### Intermediate goals and milestones
-
-After day 1, ...
-
-After day 2, ...
+At the end of the hackathon, we aim at providing a set of precisely described gene regulation resources, more easily findable/shareable, and composable into bioinformatics workflows. 
 
 ### Deliverables
-
-- 
-- 
+~TODO~
 
 
