@@ -10,8 +10,6 @@ It runs on:
 - Adminer
 We want to make our resource interoperable. 
 
-## State fo the ReMap resource
-
 ## How to plug REST to ReMap/Laravel 
 - Ask Aziz & Thomas
 - Which tool to use
@@ -20,6 +18,11 @@ We want to make our resource interoperable.
 Ask users, and list below the queries.
 - Fetch all available datasets given a TF name
 - Fetch all available datasets given a Biotype name
+
+## Deliverable
+- The lsiting of all needed REST queries
+- Basic REST interface for ReMap2020
+- Basic Documentation of REST code
 
 ## Expected attendees
  - Benoit Ballester
