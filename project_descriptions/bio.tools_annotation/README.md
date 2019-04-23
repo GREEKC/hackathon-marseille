@@ -21,7 +21,9 @@ The goal of this hacking project is to annotate the bioinformatics resources (to
 
 - [EDAM](http://edamontology.org/page), a comprehensive ontology of well-established, familiar concepts that are prevalent within bioinformatics and computational biology, including types of data and data identifiers, data formats, operations and topics.  
 
-These two complementary resources should enable us to formally describe any workflow as a graph connecting tools (associated to precise operations) and data (associated to precise data types). Tool description can alos be exported as biotoolsSchema metadata, providing a formal description of the tool prone to exchange of metadata and tool description on Web sites. 
+*These two complementary resources should enable us to formally describe any workflow as a graph connecting tools (associated to precise operations) and data (associated to precise data types).*
+
+*Tool descriptions can also be exported as biotoolsSchema metadata, providing a formal description of the tool prone to exchange of metadata and tool description on Web sites.* 
 
 During the hackathon, we will treat in priority the resources and objects used in the other hacking projects. 
 
