@@ -27,7 +27,6 @@ Ask users, and list below the queries.
 ## Entry points
 
 1.  Entry point - ReMap classic
-
  - TF entry (by species) - return all peaks BED
  - Biotype (by species) - return all peaks BED
  - GSE dataset ID (by species) - return all peaks BED
@@ -36,8 +35,7 @@ Ask users, and list below the queries.
 Output: Return a BED (not gzipped?) - plain text
 Limit requests per seconds (20 requests /second)
 
-2. 2 Entry points 
-
+2. Entry points 
  - Genomic range query
  - need to try mongodb
 
