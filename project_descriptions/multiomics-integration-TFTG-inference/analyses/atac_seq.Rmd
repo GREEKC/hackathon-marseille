@@ -1,0 +1,61 @@
+---
+title: "ATAC-seq analysis"
+author: "Christian Holland"
+date: "4/24/2019"
+output: html_document
+---
+### Knitr config
+```{r "knitr config", cache=FALSE, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+knitr::knit(..., quiet = TRUE)
+```
+
+### Libraries and sources
+These libraries and sources are used in this analysis 
+```{r "setup", message=F}
+library(tidyverse)
+library(GenomicRanges)
+```
+
+### Load BED files
+```{r "load bed files}
+bed_files = list.files("data/ATACseq", full.names = T, recursive = T, 
+                       pattern = "*.bed.gz") %>%
+  map_df(function(path) {
+    read_delim(path, delim = "\t", col_names = F) %>%
+      dplyr::rename(chromosome = X1,
+         start = X2,
+         end = X3,
+         id = X4,
+         score = X5,
+         strand = X6,
+         fold_enrichment = X7,
+         pval = X8,
+         fdr = X9,
+         center = X10) %>%
+      mutate(time = str_match(id, "t([0-9]+)")[,2],
+             rep = str_match(id, "rep([0-9]+)")[,2]) %>%
+      mutate(time = factor(time, levels=c(0,1,4,8,12)),
+             rep = factor(rep, levels=c(1,2,3)))
+  }) %>%
+  arrange(time, rep)
+
+saveRDS(bed_files, "output/ATACseq/bed_df.rds")
+```
+
+```{r "merge replicates to identify conserved peaks}
+df = readRDS("output/ATACseq/bed_df.rds")
+
+y = df %>% 
+  nest(-c(time, rep)) %>%
+  filter(time == 1) %>%
+  transmute(time, rep, gr = data %>% map(~GRanges(.))) %>%
+  nest(-time) %>%
+  transmute(time, grl = data %>% map(~GRangesList(.$gr)))
+
+# x = mergeReplicates(GRangesList(y$gr),y$time)
+# reduce(y$grl[[1]], GenomicRanges::intersect, drop.empty.ranges=TRUE)
+```
