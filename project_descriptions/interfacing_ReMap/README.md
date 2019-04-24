@@ -24,6 +24,27 @@ Ask users, and list below the queries.
 - Basic REST interface for ReMap2020
 - Basic Documentation of REST code
 
+## Entry points
+-  1 Entry point - ReMap classic
+ -- TF (list all the TF) (by species)
+ -- Biotype (by species)
+ -- GSE dataset ID (by species)
+ -- For a given TF, give me all datasets, and then get the peaks (BED)
+
+Output: Return a BED (not gzipped?) - plain text
+Limit requests per seconds (20 requests /second)
+
+- 2 Entry points 
+ -- Genomic range query
+ -- need to try mongodb
+
+Output: BED
+
+
+
+
+
+
 ## Expected attendees
  - Benoit Ballester
  - Aziz Kan
