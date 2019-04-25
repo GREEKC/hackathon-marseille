@@ -1,0 +1,212 @@
+---
+title: "RNA-seq analysis"
+author: "Christian Holland"
+date: "4/24/2019"
+output: html_document
+---
+### Knitr config
+```{r "knitr config", cache=FALSE, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+knitr::knit(..., quiet = TRUE)
+```
+
+### Libraries and sources
+These libraries and sources are used in this analysis 
+```{r "setup", message=F}
+library(tidyverse)
+library(edgeR)
+library(viper)
+```
+#### Create meta data and build design matrix
+```{r "create meta data}
+count_mat = get(load("data/RNAseq/count_mat.rda"))
+meta = count_mat %>%
+  gather(sample, count, -Geneid) %>%
+  as_tibble() %>%
+  distinct(sample) %>%
+  filter(!sample %in% c("0h_2", "0h_5", "0h_7")) %>%
+  separate(sample, into=c("time", "rep"), remove = F) %>%
+  mutate(time = case_when(time == "5min" ~ "0.083h",
+                          time == "10min" ~ "0.167h",
+                          time == "15min" ~ "0.25h",
+                          time == "20min" ~ "0.33h",
+                          time == "25min" ~ "0.417h",
+                          time == "30min" ~ "0.5h",
+                          TRUE ~ time)) %>%
+  mutate(time = str_remove(time, "h")) %>%
+  mutate(time = as.numeric(time),
+         time = factor(time, levels = c("0", "0.083", "0.167", "0.25", "0.33", 
+                                        "0.417", "0.5", "1", "2", "3", "4", "5",
+                                        "6", "7", "8","10", "12"))) %>%
+  arrange(sample, rep)
+
+
+design_matrix = meta %>%
+        model.matrix(~0+time, data=.)
+rownames(design_matrix) = meta$sample
+
+saveRDS(meta, "output/RNAseq/meta_df.rds")
+saveRDS(design_matrix, "output/RNAseq/design.rds")
+```
+
+
+#### Load count data and normalize data
+```{load count and normalize data}
+count_mat = get(load("data/RNAseq/count_mat.rda"))
+
+gene_annotation = read_csv("data/hgnc_ensembl_entrez.csv") %>%
+  select(hgnc_symbol, gene = ensembl_gene_id_version) %>%
+  drop_na()
+
+design = readRDS("output/RNAseq/design.rds")
+
+# tranlate gene ids
+tmp_count_mat = count_mat %>%
+  dplyr::rename(gene = Geneid) %>%
+  gather(sample, count, -gene) %>%
+  as_tibble() %>%
+  filter(!sample %in% c("0h_2", "0h_5", "0h_7")) %>%
+  inner_join(gene_annotation, by="gene") %>%
+  group_by(sample, hgnc_symbol) %>%
+  summarise(count = mean(count)) %>%
+  ungroup() %>%
+  dplyr::rename(gene = hgnc_symbol) %>%
+  spread(sample, count) %>%
+  data.frame(row.names = 1, check.names = F, stringsAsFactors = F)
+
+#filter out by expression
+keep = tmp_count_mat %>%
+  filterByExpr(., design)
+
+filtered_count_mat = tmp_count_mat[keep,]
+  
+  stopifnot(colnames(filtered_count_mat) == rownames(design))
+
+expr = filtered_count_mat %>%
+        DGEList() %>%
+        calcNormFactors() %>%
+        voom(design = design) %>%
+        pluck("E")
+
+saveRDS(expr, "output/RNAseq/normalized_expression.rds")
+```
+#### Calculation of contrasts
+```{r "calculation of contrasts"}
+expr = readRDS("output/RNAseq/normalized_expression.rds")
+design = readRDS("output/RNAseq/design.rds")
+
+contrasts = makeContrasts(
+      min5vs0 = time0.083 - time0,
+      min10vs0 = time0.167 - time0,
+      min15vs0 = time0.25 - time0,
+      min20vs0 = time0.33 - time0,
+      min25vs0 = time0.417 - time0,
+      min30vs0 = time0.5 - time0,
+      h1vs0 = time1 - time0,
+      h2vs0 = time2 - time0,
+      h3vs0 = time3 - time0,
+      h4vs0 = time4 - time0,
+      h5vs0 = time5 - time0,
+      h6vs0 = time6 - time0,
+      h7vs0 = time7 - time0,
+      h8vs0 = time8 - time0,
+      h10vs0 = time10 - time0,
+      h12vs0 = time12 - time0,
+      levels = design
+    )
+    
+deg = lmFit(expr, design) %>% 
+  contrasts.fit(contrasts) %>%
+  eBayes() %>%
+  broom::tidy() %>%
+  mutate(term = factor(term, levels=c("min5vs0", "min10vs0", "min15vs0",
+                                      "min20vs0", "min25vs0", "min30vs0",
+                                      "h1vs0", "h2vs0", "h3vs0", "h4vs0",
+                                      "h5vs0", "h6vs0", "h7vs0", "h8vs0",
+                                      "h10vs0", "h12vs0"))) %>%
+  mutate(time = case_when(term == "min5vs0" ~ 0.083,
+                          term == "min10vs0" ~ 0.167,
+                          term == "min15vs0" ~ 0.25,
+                          term == "min20vs0" ~ 0.33,
+                          term == "min25vs0" ~ 0.417,
+                          term == "min30vs0" ~ 0.5,
+                          term == "h1vs0" ~ 1,
+                          term == "h2vs0" ~ 2,
+                          term == "h3vs0" ~ 3,
+                          term == "h4vs0" ~ 4,
+                          term == "h5vs0" ~ 5,
+                          term == "h6vs0" ~ 6,
+                          term == "h7vs0" ~ 7,
+                          term == "h8vs0" ~ 8,
+                          term == "h10vs0" ~ 10,
+                          term == "h12vs0" ~ 12))
+
+saveRDS(deg, "output/RNAseq/deg.rds")
+
+ggplot(deg, aes(x=estimate, y=-log10(p.value))) +
+  geom_point() +
+  facet_wrap(~term)
+```
+
+#### Run VIPER
+```{r "run viper"}
+df2regulon = function (df) {
+  regulon = df %>% 
+    split(.$tf) %>% map(function(dat) {
+    targets = setNames(dat$mor, dat$target)
+    likelihood = dat$likelihood
+    list(tfmode = targets, likelihood = likelihood)
+  })
+  return(regulon)
+}
+
+deg = readRDS("output/RNAseq/deg.rds")
+deg = read_delim("output/RNAseq/DEG_lm.txt", delim="\t")
+
+deg %>% filter(gene %in% x)
+
+human_dorothea = read_csv(
+  "~/Projects/scRNA_progeny_dorothea/data/regulons/dorothea/dorothea_regulon_human_v1.csv"
+  )
+
+new_regulon = readRDS("output/ChIPseq/new_regulon.rds")
+
+c_dorothea = get(load("~/Projects/ShinyFUNKI/data/models/dorothea_regulon_human_coverage_v1.rda")) %>%
+  filter(confidence %in% c("A", "B", "C", "D"))
+
+viper_regulon = new_regulon %>% df2regulon()
+
+viper_input = deg %>%
+  select(gene, term, estimate) %>%
+  spread(term, estimate) %>%
+  data.frame(row.names=1, check.names = F, stringsAsFactors = F)
+
+viper_result = viper_input %>% 
+  viper(., regulon = viper_regulon, nes=T, method="none", minsize=4, 
+        eset.filter=F, adaptive.size = F)
+
+res = viper_result %>%
+  data.frame(check.names = F, stringsAsFactors = F) %>%
+  rownames_to_column("tf") %>%
+  gather(term, activity, -tf) %>%
+  as_tibble() %>%
+  inner_join(distinct(deg, term, time), by="term")
+
+res %>%
+  filter(tf == "NR3C1")
+
+res %>% 
+  filter(tf %in% c("NR3C1")) %>%
+  ggplot(aes(x=time, y=activity)) +
+  geom_point() +
+  geom_smooth(method="loess") +
+  geom_hline(yintercept = 0, linetype="dashed") +
+  labs(title = "Activity profiles of selected TFs", x="Time in hours", y="Activity (NES)") +
+  background_grid(major = "xy", minor = "none", size.major = 0.4) +
+  facet_wrap(~tf)
+
+
+```
