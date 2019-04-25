@@ -1,0 +1,69 @@
+---
+title: "RNA-seq analysis"
+author: "Christian Holland"
+date: "4/24/2019"
+output: html_document
+---
+### Knitr config
+```{r "knitr config", cache=FALSE, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+knitr::knit(..., quiet = TRUE)
+```
+
+### Libraries and sources
+These libraries and sources are used in this analysis 
+```{r "setup", message=F}
+library(tidyverse)
+library(GenomicRanges)
+library(ChIPseeker)
+```
+
+#### load results from motif analyses
+```{r "load results from motif analyses}
+x = list.files("data/ChIPseq/motif_analyses", full.names = T, pattern="*.tab") %>%
+  map_df(function(path) {
+    tf = basename(path) %>% str_split(., "_") %>% pluck(1,1)
+    time = basename(path) %>% str_split(., "_") %>% pluck(1,2)
+    
+    df = read_delim(path, comment= ";", col_names =T, delim = "\t")
+    if (nrow(df) < 1000) {
+      message("fail")
+      return(NULL)
+    } else {
+      df %>%
+        dplyr::rename(id = `#seq_id`) %>%
+        dplyr::select(-strand) %>%
+        #filter(!str_detect(id, "chrUn")) %>%
+        separate(id, into=c("organism", "seqname", "start", "end", "strand"), sep="_") %>%
+        dplyr::select(chr=seqname, start, end) %>%
+        mutate(start = as.numeric(start),
+               end = as.numeric(end)) %>%
+        drop_na() %>%
+        mutate(tf = tf,
+               time = time)
+    }
+  })
+  
+
+y = GRanges(x)
+b = annotatePeak(GRanges(x), TxDb = TxDb.Hsapiens.UCSC.hg19.knownGene, annoDb = "org.Hs.eg.db") %>%
+  as_tibble() %>%
+  distinct()
+
+y = b %>% nest(-tf) %>%
+  mutate(x = data %>% map(function(k) {
+    k %>% filter(between(distanceToTSS, -5e3, 5e3)) %>%
+      distinct(ENSEMBL, SYMBOL)
+  })) %>%
+  unnest(x)
+  
+new_regulon = y %>% 
+  dplyr::select(target = ENSEMBL, -SYMBOL) %>%
+  mutate(mor = 1, likelihood=1)
+
+saveRDS(new_regulon, "output/ChIPseq/new_regulon.rds")
+
+```
