@@ -27,15 +27,15 @@ Ask users, and list below the queries.
 ## User needs - Questions - REST entry points
 
 - ReMap: Give me all peaks for a region coordinate (chr1:12334:68090)
-	-- Allow filters by species, TF name, biotype 
+-- Allow filters by species, TF name, biotype 
 - ReMap: Give me all peaks for a set of region coordinates (bed file, or (chr1:12334:68090;chrX:6666:9999))
-	-- Allow filters by species, TF name, biotype 
+-- Allow filters by species, TF name, biotype 
 - ReMap: Give me all peaks for a given Biotype (MCF-7 / Liver)
-	-- Allow filters by species, TF name
+-- Allow filters by species, TF name
 - ReMap: Give me all peaks for a set of TFs (ESR1, AR, CTCF)
-	-- Allow filters by species
+-- Allow filters by species
 - ReMap: Give me all peaks for a given TF (AR)
-	-- Allow filters by species
+-- Allow filters by species
 
 - ReMap : peak enrichment (input paramters as JSON file for the ReMapEnrich)
 	-I give you a set of peaks, I want the ReMap peaksets with significant overlap
