@@ -26,19 +26,19 @@ Ask users, and list below the queries.
 
 ## User needs - Questions - REST entry points
 
-- ReMap: Give me all peaks for a region coordinate (chr1:12334:68090)
--- Allow filters by species, TF name, biotype 
-- ReMap: Give me all peaks for a set of region coordinates (bed file, or (chr1:12334:68090;chrX:6666:9999))
--- Allow filters by species, TF name, biotype 
-- ReMap: Give me all peaks for a given Biotype (MCF-7 / Liver)
--- Allow filters by species, TF name
-- ReMap: Give me all peaks for a set of TFs (ESR1, AR, CTCF)
--- Allow filters by species
-- ReMap: Give me all peaks for a given TF (AR)
--- Allow filters by species
+* ReMap: Give me all peaks for a region coordinate (chr1:12334:68090)
+	* Allow filters by species, TF name, biotype 
+* ReMap: Give me all peaks for a set of region coordinates (bed file, or (chr1:12334:68090;chrX:6666:9999))
+	* Allow filters by species, TF name, biotype 
+* ReMap: Give me all peaks for a given Biotype (MCF-7 / Liver)
+	* Allow filters by species, TF name
+* ReMap: Give me all peaks for a set of TFs (ESR1, AR, CTCF)
+	* Allow filters by species
+* ReMap: Give me all peaks for a given TF (AR)
+	* Allow filters by species
 
-- ReMap : peak enrichment (input paramters as JSON file for the ReMapEnrich)
-	-I give you a set of peaks, I want the ReMap peaksets with significant overlap
+* ReMap : peak enrichment (input paramters as JSON file for the ReMapEnrich)
+	* I give you a set of peaks, I want the ReMap peaksets with significant overlap
 R package already exists to do this, but it requires to download the whole peakset
 
 
@@ -58,8 +58,8 @@ Trying laravel eloquent
 ### Entry points - Peaks with coordinates query
 We need to investigate the tools needed to code this. 
 
- - Genomic range query - a possibiliy
- - MongoDB : a nosql database - need to try mongodb
+ - **GenomicRange** query - a possibiliy
+ - **MongoDB** : a nosql database - need to try mongodb
 
 Output wanted: BED / JSON
 Limit requests per seconds (20 requests /second)
@@ -68,7 +68,7 @@ Limit requests per seconds (20 requests /second)
 ### Using a different ORM (Object-relational mapping)
 It appeared that we may need to change the way we communicate to the database, using Eloquent as ORM for Laravel. This will change fundamentaly our code, which need to be updtaed. This involve extra coding time. 
 
-- Moving from MySQL access to Eloquent (ORM)
+- Moving from MySQL access to **Eloquent** (ORM)
 
 
 ## Coding 1st entry point - listing datasets for a given TF
@@ -126,6 +126,14 @@ https://stackoverflow.com/questions/31514688/how-to-use-mongoimport-for-specific
 ``` docker exec -it mongo-testremap  mongoimport --db mongo-testremap --collection peaks  --type tsv --file remap2015_all_macs2_hg38_v1.bed  --fields chr,start,name,score,strand,thickStart,thickEnd,itemRgb  ```
 
 
+-- **STUCK here**
+
+## Conclusion
+
+* We have three REST entry points on the ReMap metadata
+	* This allowed us to understand the basic of Laravel interlaced worth an ORM 
+* We are investigating the deplyoment of a NOSQL databse (MongoDB) to test queries on our Peak sets. 
+* We may need to setup the REST server using a different framework than Laravel and lighter (Lumen).
 
 
 
