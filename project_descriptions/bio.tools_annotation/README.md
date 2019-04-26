@@ -50,9 +50,9 @@ The table below provides the URL of each resource mobilised by the workflow, and
 - a description of as many as possible of these tools and database in bio.tools
 - identifying all these the data types in EDAM and reporting the missing ones, with a particular focus on tools input and outputs parameters (EDAM operations)
 
-### Final goal
+## Final goal
 
 At the end of the hackathon, we aim at providing a set of precisely described gene regulation resources, more easily findable/shareable, and composable into bioinformatics workflows. 
 
-### Side project
-A jupyter notebook [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GREEKC/hackathon-marseille/master?filepath=(Bio)Schema(.org)%2520experiments.ipynb) demoing how Bio.Tools entries could be automatically transformed into BioSchema or Schema.org markup. 
+## Side project [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GREEKC/hackathon-marseille/master?filepath=project_descriptions%2Fbio.tools_annotation%2FBio-Schema-org-experiments.ipynb)
+A jupyter notebook demoing how Bio.Tools entries could be automatically transformed into BioSchema or Schema.org markup. 
