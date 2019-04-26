@@ -58,8 +58,8 @@ Trying laravel eloquent
 ### Entry points - Peaks with coordinates query
 We need to investigate the tools needed to code this. 
 
- - Genomic range query - a possibiliy
- - MongoDB : a nosql database - need to try mongodb
+ - **GenomicRange** query - a possibiliy
+ - **MongoDB** : a nosql database - need to try mongodb
 
 Output wanted: BED / JSON
 Limit requests per seconds (20 requests /second)
