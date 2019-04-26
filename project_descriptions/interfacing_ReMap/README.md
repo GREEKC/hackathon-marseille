@@ -43,6 +43,28 @@ Trying laravel eloquent
 
 Output: BED
 
+## MongoDB
+Lets try mongodb from https://hub.docker.com/_/mongo 
+
+docker pull mongo
+
+– Create database
+docker run --name mongo-testremap -d mongo:xenial
+a6dc9cc10c153128e640361f16ca3ccb89ee2b6b5312a28f3ed1a16ddea9be33
+
+- Run bash
+docker exec -it mongo-testremap  bash
+
+- Run mongo import
+docker exec -it mongo-testremap  mongoimport --help
+
+- Get the peaks (2015 for small file)
+wget http://pedagogix-tagc.univ-mrs.fr/remap/download/remap2015/hg38/MACS/remap2015_all_macs2_hg38_v1.bed.gz
+gunzip remap2015_all_macs2_hg38_v1.bed.gz 
+
+- Import peaks
+https://stackoverflow.com/questions/31514688/how-to-use-mongoimport-for-specific-fileds-from-tsv-file
+docker exec -it mongo-testremap  mongoimport --db mongo-testremap --collection peaks  --type tsv --file remap2015_all_macs2_hg38_v1.bed  --fields chr,start,name,score,strand,thickStart,thickEnd,itemRgb
 
 
 
