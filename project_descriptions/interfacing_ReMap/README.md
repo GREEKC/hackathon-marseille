@@ -26,6 +26,14 @@ Ask users, and list below the queries.
 
 ## User needs - Questions - REST entry points
 
+- ReMap: Give me all peaks for a region
+- ReMap: Give me all peaks for a region set
+- ReMap: Give me all peaks for a given Biotype (cell type / tissue)
+- ReMap: Give me all peaks for a set of TFs
+- ReMap: Give me all peaks for a given TF
+- ReMap : peak enrichment
+	-I give you a set of peaks, I want the ReMap peaksets with significant overlap
+R package already exists to do this, but it requires to download the whole peakset
 
 
 
@@ -70,6 +78,8 @@ It appeared that we may need to change the way we communicate to the database, u
 
 
 
+
+
 ## Testing MongoDB - to insert 80M peaks
 Lets try mongodb from https://hub.docker.com/_/mongo 
 
@@ -98,15 +108,10 @@ The ```-v /my/own/datadir:/data/db``` part of the command mounts the ```/my/own/
 
 
 
-
-
-- Import peaks
+- Import peaks See :
 https://stackoverflow.com/questions/31514688/how-to-use-mongoimport-for-specific-fileds-from-tsv-file
-``` docker exec -it mongo-testremap  mongoimport --db mongo-testremap --collection peaks  --type tsv
---file remap2015_all_macs2_hg38_v1.bed  --fields chr,start,name,score,strand,thickStart,thickEnd,itemRgb  ```
 
-
-
+``` docker exec -it mongo-testremap  mongoimport --db mongo-testremap --collection peaks  --type tsv --file remap2015_all_macs2_hg38_v1.bed  --fields chr,start,name,score,strand,thickStart,thickEnd,itemRgb  ```
 
 
 ## Expected attendees
