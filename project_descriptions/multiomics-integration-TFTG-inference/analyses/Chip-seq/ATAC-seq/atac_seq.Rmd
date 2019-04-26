@@ -51,11 +51,24 @@ df = readRDS("output/ATACseq/bed_df.rds")
 
 y = df %>% 
   nest(-c(time, rep)) %>%
-  filter(time == 1) %>%
   transmute(time, rep, gr = data %>% map(~GRanges(.))) %>%
   nest(-time) %>%
-  transmute(time, grl = data %>% map(~GRangesList(.$gr)))
+  transmute(time, grl = data %>% map(~GRangesList(.$gr))) %>%
+  transmute(time, grl, consensus = grl %>% map(function(grl) {
+    purrr::reduce(grl, GenomicRanges::intersect, ignore.strand=T) %>%
+      as_tibble()
+  }))
 
-# x = mergeReplicates(GRangesList(y$gr),y$time)
-# reduce(y$grl[[1]], GenomicRanges::intersect, drop.empty.ranges=TRUE)
+# consensus across all timepoints
+consensus = df %>% 
+  nest(-c(time, rep)) %>%
+  transmute(time, rep, gr = data %>% map(~GRanges(.))) %>%
+  pull(gr) %>%
+  purrr::reduce(., GenomicRanges::intersect, ignore.strand=T)
+
+consensus %>% 
+  as_tibble() %>%
+  distinct(seqnames)
 ```
+
+```{r "assign counts to peaks using bam files}
