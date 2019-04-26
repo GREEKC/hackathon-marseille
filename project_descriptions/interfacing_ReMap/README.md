@@ -74,22 +74,22 @@ It appeared that we may need to change the way we communicate to the database, u
 ## Coding 1st entry point - listing datasets for a given TF
 This uses MySQL stored procedures 
 
-```http://localhost:8090/REST_API/v1/tf=AR```
+```http://localhost:8090/REST_API/v1/tf=STAT3```
 
 
-![First REST query](/images/remap_rest_tf_datasets.png)
+![First REST query](/images/remap_rest_datasets.png)
 
 
 ## Coding 2nd entry point - listing Targets
 This is uses Eloquent ORM, lists the table target_label
 
-
+![First REST query](/images/remap_rest_targets.png)
 
 
 ## Coding 3rd entry point - Experiments
 This is uses Eloquent ORM, lists the table Experiments, with target, and experiemnt_info
 
-
+![First REST query](/images/remap_rest_experiments.png)
 
 
 
