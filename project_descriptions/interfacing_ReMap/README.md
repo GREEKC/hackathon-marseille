@@ -24,47 +24,86 @@ Ask users, and list below the queries.
 - Basic REST interface for ReMap2020
 - Basic Documentation of REST code
 
+## User needs - Questions - REST entry points
+
+
+
+
 ## Entry points
 
-###  Entry point - ReMap classic
+###  Entry point - ReMap metadata
  - TF entry (by species) - return all peaks BED
  - Biotype (by species) - return all peaks BED
  - GSE dataset ID (by species) - return all peaks BED
  - For a given TF, give me all datasets, and then get the peaks (BED)
 
-Output: Return a BED (not gzipped?) - plain text
+Output wanted: BED / JSON
 Limit requests per seconds (20 requests /second)
 
 Trying laravel eloquent
 
-### Entry points 
- - Genomic range query
- - need to try mongodb
+### Entry points - Peaks with coordinates query
+We need to investigate the tools needed to code this. 
 
-Output: BED
+ - Genomic range query - a possibiliy
+ - MongoDB : a nosql database - need to try mongodb
 
-## MongoDB
+Output wanted: BED / JSON
+Limit requests per seconds (20 requests /second)
+
+
+### Using a different ORM (Object-relational mapping)
+It appeared that we may need to change the way we communicate to the database, using Eloquent as ORM for Laravel. This will change fundamentaly our code, which need to be updtaed. This involve extra coding time. 
+
+- Moving from MySQL access to Eloquent (ORM)
+
+
+## Coding first entry point - listying datasets for a given TF
+
+```http://localhost:8090/REST_API/v1/tf=AR```
+
+
+![First REST query](/images/remap_rest_tf_datasets.png)
+
+
+## Coding second entry point - 
+
+
+
+## Testing MongoDB - to insert 80M peaks
 Lets try mongodb from https://hub.docker.com/_/mongo 
 
-docker pull mongo
+```docker pull mongo```
 
 – Create database
-docker run --name mongo-testremap -d mongo:xenial
-a6dc9cc10c153128e640361f16ca3ccb89ee2b6b5312a28f3ed1a16ddea9be33
+```docker run --name mongo-testremap -d mongo:xenial ```
+```a6dc9cc10c153128e640361f16ca3ccb89ee2b6b5312a28f3ed1a16ddea9be33```
 
 - Run bash
-docker exec -it mongo-testremap  bash
+```docker exec -it mongo-testremap  bash```
 
-- Run mongo import
-docker exec -it mongo-testremap  mongoimport --help
+- Test mongo import
+```docker exec -it mongo-testremap  mongoimport --help```
 
 - Get the peaks (2015 for small file)
-wget http://pedagogix-tagc.univ-mrs.fr/remap/download/remap2015/hg38/MACS/remap2015_all_macs2_hg38_v1.bed.gz
-gunzip remap2015_all_macs2_hg38_v1.bed.gz 
+``` wget http://pedagogix-tagc.univ-mrs.fr/remap/download/remap2015/hg38/MACS/remap2015_all_macs2_hg38_v1.bed.gz ```
+``` gunzip remap2015_all_macs2_hg38_v1.bed.gz ```
+
+
+- Start your mongo container like this:
+
+``` docker run --name mongo-testremap -v /my/own/datadir:/data/db -d mongo ```
+
+The ```-v /my/own/datadir:/data/db``` part of the command mounts the ```/my/own/datadir``` directory from the underlying host system as /data/db inside the container, where MongoDB by default will write its data files.
+
+
+
+
 
 - Import peaks
 https://stackoverflow.com/questions/31514688/how-to-use-mongoimport-for-specific-fileds-from-tsv-file
-docker exec -it mongo-testremap  mongoimport --db mongo-testremap --collection peaks  --type tsv --file remap2015_all_macs2_hg38_v1.bed  --fields chr,start,name,score,strand,thickStart,thickEnd,itemRgb
+``` docker exec -it mongo-testremap  mongoimport --db mongo-testremap --collection peaks  --type tsv
+--file remap2015_all_macs2_hg38_v1.bed  --fields chr,start,name,score,strand,thickStart,thickEnd,itemRgb  ```
 
 
 
@@ -75,6 +114,8 @@ docker exec -it mongo-testremap  mongoimport --db mongo-testremap --collection p
  - Aziz Kan
  - Aurélie Bergon
  - Fabrice Lopez
+ - Jeanne Cheneby
+ - David Salagado
  - Thomas Rosnet
 
 
