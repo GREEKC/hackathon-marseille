@@ -126,6 +126,14 @@ https://stackoverflow.com/questions/31514688/how-to-use-mongoimport-for-specific
 ``` docker exec -it mongo-testremap  mongoimport --db mongo-testremap --collection peaks  --type tsv --file remap2015_all_macs2_hg38_v1.bed  --fields chr,start,name,score,strand,thickStart,thickEnd,itemRgb  ```
 
 
+-- **STUCK here**
+
+## Conclusion
+
+* We have three REST entry points on the ReMap metadata
+	* This allowed us to understand the basic of Laravel interlaced worth an ORM 
+* We are investigating the deplyoment of a NOSQL databse (MongoDB) to test queries on our Peak sets. 
+* We may need to setup the REST server using a different framework than Laravel and lighter (Lumen).
 
 
 
