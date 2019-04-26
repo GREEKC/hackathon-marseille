@@ -54,7 +54,5 @@ The table below provides the URL of each resource mobilised by the workflow, and
 
 At the end of the hackathon, we aim at providing a set of precisely described gene regulation resources, more easily findable/shareable, and composable into bioinformatics workflows. 
 
-### Deliverables
-~TODO~
-
-
+### Side project
+A jupyter notebook [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GREEKC/hackathon-marseille/master?filepath=(Bio)Schema(.org)%2520experiments.ipynb) demoing how Bio.Tools entries could be automatically transformed into BioSchema or Schema.org markup. 
