@@ -68,7 +68,7 @@ Limit requests per seconds (20 requests /second)
 ### Using a different ORM (Object-relational mapping)
 It appeared that we may need to change the way we communicate to the database, using Eloquent as ORM for Laravel. This will change fundamentaly our code, which need to be updtaed. This involve extra coding time. 
 
-- Moving from MySQL access to Eloquent (ORM)
+- Moving from MySQL access to **Eloquent** (ORM)
 
 
 ## Coding 1st entry point - listing datasets for a given TF
