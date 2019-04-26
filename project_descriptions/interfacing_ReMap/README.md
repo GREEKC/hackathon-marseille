@@ -26,15 +26,20 @@ Ask users, and list below the queries.
 
 ## User needs - Questions - REST entry points
 
-- ReMap: Give me all peaks for a region
-- ReMap: Give me all peaks for a region set
-- ReMap: Give me all peaks for a given Biotype (cell type / tissue)
-- ReMap: Give me all peaks for a set of TFs
-- ReMap: Give me all peaks for a given TF
-- ReMap : peak enrichment
+- ReMap: Give me all peaks for a region coordinate (chr1:12334:68090)
+	-- Allow filters by species, TF name, biotype 
+- ReMap: Give me all peaks for a set of region coordinates (bed file, or (chr1:12334:68090;chrX:6666:9999))
+	-- Allow filters by species, TF name, biotype 
+- ReMap: Give me all peaks for a given Biotype (MCF-7 / Liver)
+	-- Allow filters by species, TF name
+- ReMap: Give me all peaks for a set of TFs (ESR1, AR, CTCF)
+	-- Allow filters by species
+- ReMap: Give me all peaks for a given TF (AR)
+	-- Allow filters by species
+
+- ReMap : peak enrichment (input paramters as JSON file for the ReMapEnrich)
 	-I give you a set of peaks, I want the ReMap peaksets with significant overlap
 R package already exists to do this, but it requires to download the whole peakset
-
 
 
 ## Entry points
@@ -66,7 +71,8 @@ It appeared that we may need to change the way we communicate to the database, u
 - Moving from MySQL access to Eloquent (ORM)
 
 
-## Coding first entry point - listying datasets for a given TF
+## Coding 1st entry point - listing datasets for a given TF
+This uses MySQL stored procedures 
 
 ```http://localhost:8090/REST_API/v1/tf=AR```
 
@@ -74,7 +80,14 @@ It appeared that we may need to change the way we communicate to the database, u
 ![First REST query](/images/remap_rest_tf_datasets.png)
 
 
-## Coding second entry point - 
+## Coding 2nd entry point - listing Targets
+This is uses Eloquent ORM, lists the table target_label
+
+
+
+
+## Coding 3rd entry point - Experiments
+This is uses Eloquent ORM, lists the table Experiments, with target, and experiemnt_info
 
 
 
@@ -107,11 +120,13 @@ Lets try mongodb from https://hub.docker.com/_/mongo
 The ```-v /my/own/datadir:/data/db``` part of the command mounts the ```/my/own/datadir``` directory from the underlying host system as /data/db inside the container, where MongoDB by default will write its data files.
 
 
-
 - Import peaks See :
 https://stackoverflow.com/questions/31514688/how-to-use-mongoimport-for-specific-fileds-from-tsv-file
 
 ``` docker exec -it mongo-testremap  mongoimport --db mongo-testremap --collection peaks  --type tsv --file remap2015_all_macs2_hg38_v1.bed  --fields chr,start,name,score,strand,thickStart,thickEnd,itemRgb  ```
+
+
+
 
 
 ## Expected attendees
