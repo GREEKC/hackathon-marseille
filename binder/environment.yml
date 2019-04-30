@@ -1,6 +1,0 @@
-name: python 3.7
-dependencies:
-  - python=3.7
-  - networkx=2.2
-  - rdflib=4.2.2
-  - nxpd=0.2.0
