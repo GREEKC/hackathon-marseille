@@ -1,3 +1,4 @@
 networkx==2.2
 nxpd==0.2.0
 rdflib==4.2.2
+rdflib-jsonld==0.4.0
