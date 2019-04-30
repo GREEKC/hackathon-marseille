@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Testing the MyBinder environment"
+python --version | echo
+python -c "exec(\"import rdflib\")"
