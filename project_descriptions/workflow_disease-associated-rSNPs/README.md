@@ -1,5 +1,11 @@
 # A workflow to analyse disease-associated regulatory variants
 
+## Warning
+
+This folder contains the results obtained during the  GREEKC hackathon (May 23-26, 2019), and the subsequent development until July 9, 2019. After this date, the workflow will be further developed in a separate repository. 
+
+[https://github.com/YvonFrid/cisreg-GWAS/](https://github.com/YvonFrid/cisreg-GWAS/)
+
 
 ## Project proponent
 
